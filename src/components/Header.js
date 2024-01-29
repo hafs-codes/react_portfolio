@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <nav class="navbar">
-    <div class="logo">
+    <nav className="navbar">
+    <div className="logo">
       <a href="assets/images/my-logo.png">
-        <img src="assets/images/my-logo.png" class="logo-img" alt="My Logo"/>
+        <img src="assets/images/my-logo.png" className="logo-img" alt="My Logo"/>
       </a>
     </div>
-    <ul class="nav-links">
-      <div class="menu">
+    <ul className="nav-links">
+      <div className="menu">
         <li><a href="#about">About</a></li>
         <li><a href="#Languages">Skills</a></li>
         <li><a href="#Projects">Projects</a></li>
