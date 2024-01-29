@@ -1,9 +1,10 @@
 import React from 'react'
 import myLogo from '../images/my-logo.png';
 
-export default function Header() {
-    return (
-        <nav className="navbar">
+function Header() {
+  return (
+<>
+<nav className="navbar">
             <div className="logo">
                 <a>
                     <img src={myLogo} className="logo-img" alt="My Logo" />
@@ -19,5 +20,9 @@ export default function Header() {
                 </div>
             </ul>
         </nav>
-    )
+</>
+  )
 }
+
+export default Header
+
