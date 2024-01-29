@@ -1,4 +1,7 @@
 import React from 'react'
+import fms from '../images/facultymanagementsystem.png';
+import admin from '../images/admin.png';
+import transaction from '../images/transaction.png';
 
 function Projects() {
     return (
