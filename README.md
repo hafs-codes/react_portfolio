@@ -62,6 +62,18 @@ This ensures that:
 - It receives a callback function that has access to the latest state value.
 - The state is updated correctly based on the previous value.
 
+
+**Object Destructuring:** Imagine a box full of tools, and you only need the hammer and screwdriver. Destructuring lets you pull those specific tools out of the box (object) into separate variables (hammer, screwdriver) easily.
+
+**React JSX:** Think of it as writing instructions for building with Legos. You use special blocks (HTML-like tags) and connect them with JavaScript glue. Behind the scenes, your instructions get translated into building the actual Lego castle (web page).
+
+**async/await:** Imagine waiting at a restaurant. Instead of staring at the empty table, you can "await" your food (data) while doing other things. When it arrives, you "eat" it (use the data) happily.
+
+**Promises:** Think of these as waiters taking your order (asynchronous task) and bringing you the food (data) later, either hot and delicious (successful) or burnt and inedible (failure).
+
+Hope these simplified explanations do the trick! Feel free to ask any further questions if you need more detail.
+
+
 ## Features
 
 - **About Me:** A brief introduction.
