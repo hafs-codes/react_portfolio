@@ -71,7 +71,7 @@ This ensures that:
 
 **Promises:** Think of these as waiters taking your order (asynchronous task) and bringing you the food (data) later, either hot and delicious (successful) or burnt and inedible (failure).
 
-Hope these simplified explanations do the trick! Feel free to ask any further questions if you need more detail.
+
 
 
 ## Features
