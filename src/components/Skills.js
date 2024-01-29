@@ -1,36 +1,40 @@
 import React from 'react'
+import php from '../images/php.jpg';
+import java from '../images/java.png';
+import mysql from '../images/mysql.png';
+import python from '../images/python.png';
+import laravel from '../images/laravel.png';
+import htmlcss from '../images/htmlcss.png';
+import javascript from '../images/javascript.png';
 
-function Skills() {
+export default function Skills() {
   return (
-<>
 <section id="Languages">
-  <h1 class="language-header">Skills</h1>
-  <div class="LanguagesFlex">
-  <div class="Item">
-    <img src="assets/images/php.jpg" alt="Framework"/>
+ 
+  <h1 className="language-header">Skills</h1>
+  <div className="LanguagesFlex">
+  <div className="Item">
+    <img src={php}alt="Framework" />
   </div>
-  <div class="Item">
-    <img src="assets/images/java.png" alt="Framework"/>
+  <div className="Item">
+    <img src={java} alt="Framework"/>
   </div>
-  <div class="Item">
-    <img src="assets/images/mysql.png" alt="Framework"/>
+  <div className="Item">
+    <img src={mysql} alt="Framework"/>
   </div>
-  <div class="Item">
-    <img src="assets/images/python.png" alt="Framework"/>
+  <div className="Item">
+    <img src={python} alt="Framework"/>
   </div>
-  <div class="Item">
-    <img src="assets/images/laravel.png" alt="Framework"/>
+  <div className="Item">
+    <img src={laravel} alt="Framework"/>
   </div>
-  <div class="Item">
-    <img src="assets/images/htmlcss.png" alt="Framework"/>
+  <div className="Item">
+    <img src={htmlcss} alt="Framework"/>
   </div>
-  <div class="Item">
-    <img src="assets/images/javascript.png" alt="Framework"/>
+  <div className="Item">
+    <img src={javascript} alt="Framework"/>
   </div>
   </div>
 </section>
-</>
   )
 }
-
-export default Skills
